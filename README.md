@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-```  
+```
 @import "tmix-icon"
 ```
 
@@ -34,8 +34,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/tmix-icon-rails.
-
-## License
-
-To Be Announced
+Bug reports and pull requests are welcome on GitHub at https://github.com/spice-life/tmix-icon-rails.
