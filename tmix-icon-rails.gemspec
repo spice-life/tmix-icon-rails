@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'tmix/icon/rails/version'
+require 'tmix-icon-rails/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "tmix-icon-rails"
-  spec.version       = Tmix::Icon::Rails::VERSION
+  spec.version       = TmixIcon::VERSION
   spec.authors       = ["ItsukiChitose", "asonas"]
   spec.email         = ["hzw1258@gmail.com"]
 
