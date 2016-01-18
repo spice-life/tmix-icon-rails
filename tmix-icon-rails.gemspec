@@ -6,7 +6,7 @@ require 'tmix/icon/rails/version'
 Gem::Specification.new do |spec|
   spec.name          = "tmix-icon-rails"
   spec.version       = Tmix::Icon::Rails::VERSION
-  spec.authors       = ["asonas"]
+  spec.authors       = ["ItsukiChitose", "asonas"]
   spec.email         = ["hzw1258@gmail.com"]
 
   spec.summary       = %q{Web font for tmix}
