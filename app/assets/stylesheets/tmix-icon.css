@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'tmix-icon';
+  src: font-url('tmix-icon.eot?-6v4nnl');
+  src: font-url('tmix-icon.eot?#iefix-6v4nnl') format('embedded-opentype'),
+       font-url('tmix-icon.ttf?-6v4nnl') format('truetype'),
+       font-url('tmix-icon.woff?-6v4nnl') format('woff'),
+       font-url('tmix-icon.svg?-6v4nnl#tmix-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  font-family: 'tmix-icon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tmix-design:before {
+	content: "\e900";
+}
+.tmix-ink:before {
+	content: "\e901";
+}
+.tmix-logo-heart:before {
+	content: "\e902";
+}
+.tmix-present:before {
+	content: "\e903";
+}
+.tmix-rank-1st:before {
+	content: "\e904";
+}
+.tmix-rank-2nd:before {
+	content: "\e905";
+}
+.tmix-rank-3rd:before {
+	content: "\e906";
+}
+.tmix-rank:before {
+	content: "\e907";
+}
+.tmix-scene:before {
+	content: "\e908";
+}
+.tmix-tmix-heart:before {
+	content: "\e909";
+}
+.tmix-tmix-logo:before {
+	content: "\e90a";
+}
+.tmix-truck:before {
+	content: "\e90b";
+}
+.tmix-tshirt:before {
+	content: "\e90c";
+}
+.tmix-free-dial:before {
+	content: "\e800";
+}
+.tmix-line-a:before {
+	content: "\e801";
+}
+.tmix-zoom:before {
+	content: "\e802";
+}
+.tmix-user:before {
+	content: "\e600";
+}
+.tmix-cart:before {
+	content: "\e601";
+}
