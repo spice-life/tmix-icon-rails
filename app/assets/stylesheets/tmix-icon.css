@@ -10,6 +10,8 @@
 }
 
 i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'tmix-icon' !important;
   font-family: 'tmix-icon';
   speak: none;
   font-style: normal;
@@ -23,57 +25,165 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.tmix-design:before {
-	content: "\e900";
-}
-.tmix-ink:before {
-	content: "\e901";
-}
-.tmix-logo-heart:before {
-	content: "\e902";
-}
-.tmix-present:before {
-	content: "\e903";
-}
-.tmix-rank-1st:before {
-	content: "\e904";
-}
-.tmix-rank-2nd:before {
-	content: "\e905";
-}
-.tmix-rank-3rd:before {
-	content: "\e906";
-}
-.tmix-rank:before {
-	content: "\e907";
-}
-.tmix-scene:before {
-	content: "\e908";
-}
-.tmix-tmix-heart:before {
-	content: "\e909";
-}
-.tmix-tmix-logo:before {
-	content: "\e90a";
-}
-.tmix-truck:before {
-	content: "\e90b";
-}
 .tmix-tshirt:before {
-	content: "\e90c";
+  content: "\e90c";
 }
-.tmix-free-dial:before {
-	content: "\e800";
+.tmix-poloshirt:before {
+  content: "\e90d";
 }
-.tmix-line-a:before {
-	content: "\e801";
+.tmix-long-tshirt:before {
+  content: "\e90e";
+}
+.tmix-sweat:before {
+  content: "\e90f";
+}
+.tmix-parka:before {
+  content: "\e910";
+}
+.tmix-baby:before {
+  content: "\e911";
+}
+.tmix-apron:before {
+  content: "\e912";
+}
+.tmix-bag:before {
+  content: "\e913";
+}
+.tmix-towel:before {
+  content: "\e914";
+}
+.tmix-lock:before {
+  content: "\e915";
+}
+.tmix-unlock:before {
+  content: "\e916";
+}
+.tmix-outline:before {
+  content: "\e917";
+}
+.tmix-shadow:before {
+  content: "\e918";
+}
+.tmix-layer:before {
+  content: "\e919";
+}
+.tmix-first-layer:before {
+  content: "\e91a";
+}
+.tmix-last-layer:before {
+  content: "\e91b";
+}
+.tmix-front-layer:before {
+  content: "\e91c";
+}
+.tmix-back-layer:before {
+  content: "\e91d";
+}
+.tmix-copy:before {
+  content: "\e91e";
+}
+.tmix-guide-centerline:before {
+  content: "\e91f";
+}
+.tmix-guide-grid:before {
+  content: "\e920";
+}
+.tmix-guide-outline:before {
+  content: "\e921";
+}
+.tmix-guide-nothing:before {
+  content: "\e922";
+}
+.tmix-processing:before {
+  content: "\e923";
+}
+.tmix-font:before {
+  content: "\e924";
+}
+.tmix-text:before {
+  content: "\e925";
+}
+.tmix-vertical:before {
+  content: "\e926";
+}
+.tmix-horizontal:before {
+  content: "\e927";
+}
+.tmix-left-alignment:before {
+  content: "\e928";
+}
+.tmix-horizontal-center-alignment:before {
+  content: "\e929";
+}
+.tmix-right-alignment:before {
+  content: "\e92a";
+}
+.tmix-bottom-alignment:before {
+  content: "\e92b";
+}
+.tmix-vertical-center-alignment:before {
+  content: "\e92c";
+}
+.tmix-top-alignment:before {
+  content: "\e92d";
+}
+.tmix-zoom-in:before {
+  content: "\e92e";
+}
+.tmix-zoom-out:before {
+  content: "\e92f";
+}
+.tmix-cancel:before {
+  content: "\e930";
 }
 .tmix-zoom:before {
-	content: "\e802";
+  content: "\e931";
+}
+.tmix-tmix-logo:before {
+  content: "\e90a";
+}
+.tmix-logo-heart:before {
+  content: "\e902";
+}
+.tmix-tmix-heart:before {
+  content: "\e909";
+}
+.tmix-ink:before {
+  content: "\e901";
+}
+.tmix-design:before {
+  content: "\e900";
+}
+.tmix-present:before {
+  content: "\e903";
+}
+.tmix-rank-1st:before {
+  content: "\e904";
+}
+.tmix-rank-2nd:before {
+  content: "\e905";
+}
+.tmix-rank-3rd:before {
+  content: "\e906";
+}
+.tmix-rank:before {
+  content: "\e907";
+}
+.tmix-scene:before {
+  content: "\e908";
+}
+.tmix-truck:before {
+  content: "\e90b";
+}
+.tmix-free-dial:before {
+  content: "\e800";
+}
+.tmix-line-a:before {
+  content: "\e801";
 }
 .tmix-user:before {
-	content: "\e600";
+  content: "\e600";
 }
 .tmix-cart:before {
-	content: "\e601";
+  content: "\e601";
 }
