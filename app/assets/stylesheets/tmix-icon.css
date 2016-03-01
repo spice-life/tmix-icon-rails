@@ -10,8 +10,6 @@
 }
 
 i {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'tmix-icon' !important;
   font-family: 'tmix-icon';
   speak: none;
   font-style: normal;
