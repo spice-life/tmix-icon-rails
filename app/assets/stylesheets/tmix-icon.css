@@ -185,3 +185,6 @@ i {
 .tmix-cart:before {
   content: "\e601";
 }
+.tmix-angle-up-down:before {
+    content: "\e932";
+}
