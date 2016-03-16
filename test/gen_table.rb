@@ -13,6 +13,7 @@ File.open(path) do |f|
   end
 end
 
+puts "<html>"
 puts "<head>"
 puts "<style>"
 puts File.read(path)
@@ -41,3 +42,4 @@ names.zip(contents).sort_by { |nc| nc[1] }.each do |(name, content)|
 end
 puts "</table>"
 puts "</body>"
+puts "</html>"
