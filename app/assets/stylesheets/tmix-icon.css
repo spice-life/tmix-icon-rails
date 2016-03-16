@@ -23,6 +23,15 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.tmix-equal:before {
+  content: "\e933";
+}
+.tmix-file-text-with-pen:before {
+  content: "\e934";
+}
+.tmix-angle-up-down:before {
+  content: "\e932";
+}
 .tmix-tshirt:before {
   content: "\e90c";
 }
@@ -184,7 +193,4 @@ i {
 }
 .tmix-cart:before {
   content: "\e601";
-}
-.tmix-angle-up-down:before {
-    content: "\e932";
 }
