@@ -23,6 +23,45 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.tmix-animal:before {
+  content: "\e935";
+}
+.tmix-basic:before {
+  content: "\e936";
+}
+.tmix-event:before {
+  content: "\e937";
+}
+.tmix-food:before {
+  content: "\e938";
+}
+.tmix-frame:before {
+  content: "\e939";
+}
+.tmix-japan:before {
+  content: "\e93a";
+}
+.tmix-kids:before {
+  content: "\e93b";
+}
+.tmix-marine:before {
+  content: "\e93c";
+}
+.tmix-music:before {
+  content: "\e93d";
+}
+.tmix-plant:before {
+  content: "\e93e";
+}
+.tmix-rock:before {
+  content: "\e93f";
+}
+.tmix-sport:before {
+  content: "\e940";
+}
+.tmix-tag:before {
+  content: "\e941";
+}
 .tmix-equal:before {
   content: "\e933";
 }
