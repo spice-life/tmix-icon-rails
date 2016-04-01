@@ -9,17 +9,24 @@ gem 'tmix-icon-rails'
 ```
 
 And then execute:
-
-    $ bundle
+```sh
+$ bundle
+```
 
 Or install it yourself as:
-
-    $ gem install tmix-icon-rails
+```sh
+$ gem install tmix-icon-rails
+```
 
 ## Usage
 
-```
+```css
 @import "tmix-icon"
+```
+
+## Do you need list of icon and css class name?
+```sh
+$ ruby test/gen_table.rb > list_of_icons.html
 ```
 
 ## Contributing
