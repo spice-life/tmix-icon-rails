@@ -9,16 +9,18 @@ gem 'tmix-icon-rails'
 ```
 
 And then execute:
-
-    $ bundle
+```sh
+$ bundle
+```
 
 Or install it yourself as:
-
-    $ gem install tmix-icon-rails
+```sh
+$ gem install tmix-icon-rails
+```
 
 ## Usage
 
-```
+```css
 @import "tmix-icon"
 ```
 
