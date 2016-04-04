@@ -23,6 +23,21 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.tmix-art:before {
+  content: "\e942";
+}
+.tmix-decoration-text:before {
+  content: "\e943";
+}
+.tmix-ladies-tshirt:before {
+  content: "\e944";
+}
+.tmix-pc:before {
+  content: "\e945";
+}
+.tmix-upload:before {
+  content: "\e946";
+}
 .tmix-animal:before {
   content: "\e935";
 }
