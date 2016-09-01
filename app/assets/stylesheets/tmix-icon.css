@@ -23,6 +23,21 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.tmix-print-area-apron-front:before {
+  content: "\e92e";
+}
+.tmix-print-area-handtowel-front:before {
+  content: "\e934";
+}
+.tmix-print-area-bag-back:before {
+  content: "\e931";
+}
+.tmix-print-area-bag-front:before {
+  content: "\e948";
+}
+.tmix-text-stamp:before {
+  content: "\e947";
+}
 .tmix-angle-up-down:before {
   content: "\e900";
 }
@@ -161,26 +176,17 @@ i {
 .tmix-present:before {
   content: "\e92d";
 }
-.tmix-print-area-apron:before {
-  content: "\e92e";
-}
 .tmix-print-area-baby-back:before {
   content: "\e92f";
 }
 .tmix-print-area-baby-front:before {
   content: "\e930";
 }
-.tmix-print-area-bag:before {
-  content: "\e931";
-}
 .tmix-print-area-clutch-back:before {
   content: "\e932";
 }
 .tmix-print-area-clutch-front:before {
   content: "\e933";
-}
-.tmix-print-area-handtowel:before {
-  content: "\e934";
 }
 .tmix-print-area-long-tshirt-back:before {
   content: "\e935";
