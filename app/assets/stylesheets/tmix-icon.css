@@ -23,6 +23,12 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.tmix-bulk-order:before {
+  content: "\e962";
+}
+.tmix-guide-centerline:before {
+  content: "\e963";
+}
 .tmix-print-area-apron-front:before {
   content: "\e92e";
 }
