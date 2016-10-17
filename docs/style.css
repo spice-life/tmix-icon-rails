@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'tmix-icon';
-  src:  url('fonts/tmix-icon.eot?l6owqt');
-  src:  url('fonts/tmix-icon.eot?l6owqt#iefix') format('embedded-opentype'),
-    url('fonts/tmix-icon.ttf?l6owqt') format('truetype'),
-    url('fonts/tmix-icon.woff?l6owqt') format('woff'),
-    url('fonts/tmix-icon.svg?l6owqt#tmix-icon') format('svg');
+  src:  url('fonts/tmix-icon.eot?2c1688');
+  src:  url('fonts/tmix-icon.eot?2c1688#iefix') format('embedded-opentype'),
+    url('fonts/tmix-icon.ttf?2c1688') format('truetype'),
+    url('fonts/tmix-icon.woff?2c1688') format('woff'),
+    url('fonts/tmix-icon.svg?2c1688#tmix-icon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,33 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.tmix-ink-o:before {
+  content: "\e964";
+}
+.tmix-bottom-cursor:before {
+  content: "\e965";
+}
+.tmix-bottom-left-cursor:before {
+  content: "\e966";
+}
+.tmix-bottom-right-cursor:before {
+  content: "\e967";
+}
+.tmix-left-cursor:before {
+  content: "\e968";
+}
+.tmix-right-cursor:before {
+  content: "\e969";
+}
+.tmix-top-cursor:before {
+  content: "\e96a";
+}
+.tmix-top-left-cursor:before {
+  content: "\e96b";
+}
+.tmix-top-right-cursor:before {
+  content: "\e96c";
+}
 .tmix-bulk-order:before {
   content: "\e962";
 }
