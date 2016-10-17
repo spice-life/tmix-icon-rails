@@ -23,6 +23,33 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.tmix-ink-o:before {
+  content: "\e964";
+}
+.tmix-bottom-cursor:before {
+  content: "\e965";
+}
+.tmix-bottom-left-cursor:before {
+  content: "\e966";
+}
+.tmix-bottom-right-cursor:before {
+  content: "\e967";
+}
+.tmix-left-cursor:before {
+  content: "\e968";
+}
+.tmix-right-cursor:before {
+  content: "\e969";
+}
+.tmix-top-cursor:before {
+  content: "\e96a";
+}
+.tmix-top-left-cursor:before {
+  content: "\e96b";
+}
+.tmix-top-right-cursor:before {
+  content: "\e96c";
+}
 .tmix-bulk-order:before {
   content: "\e962";
 }
