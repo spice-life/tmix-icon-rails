@@ -23,6 +23,12 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.tmix-scaling-down:before {
+  content: "\e96d";
+}
+.tmix-design-finish:before {
+  content: "\e96e";
+}
 .tmix-ink-o:before {
   content: "\e964";
 }
