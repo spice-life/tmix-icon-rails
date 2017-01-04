@@ -251,10 +251,10 @@ i {
 .tmix-print-area-pull-parka-front:before {
   content: "\e93c";
 }
-.tmix-print-area-towel-left:before {
+.tmix-print-area-towel-left:before, .tmix-print-area-towel-back:before {
   content: "\e93d";
 }
-.tmix-print-area-towel-right:before {
+.tmix-print-area-towel-right:before, .tmix-print-area-towel-front:before {
   content: "\e93e";
 }
 .tmix-print-area-tshirt-back:before {
