@@ -23,6 +23,12 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.tmix-flip-horizontally:before {
+  content: "\e96f";
+}
+.tmix-flip-vertically:before {
+  content: "\e970";
+}
 .tmix-scaling-down:before {
   content: "\e96d";
 }

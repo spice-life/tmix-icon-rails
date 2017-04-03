@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'tmix-icon';
-  src:  url('fonts/tmix-icon.eot?8ez59e');
-  src:  url('fonts/tmix-icon.eot?8ez59e#iefix') format('embedded-opentype'),
-    url('fonts/tmix-icon.ttf?8ez59e') format('truetype'),
-    url('fonts/tmix-icon.woff?8ez59e') format('woff'),
-    url('fonts/tmix-icon.svg?8ez59e#tmix-icon') format('svg');
+  src:  url('fonts/tmix-icon.eot?yrfemg');
+  src:  url('fonts/tmix-icon.eot?yrfemg#iefix') format('embedded-opentype'),
+    url('fonts/tmix-icon.ttf?yrfemg') format('truetype'),
+    url('fonts/tmix-icon.woff?yrfemg') format('woff'),
+    url('fonts/tmix-icon.svg?yrfemg#tmix-icon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,12 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.tmix-flip-horizontally:before {
+  content: "\e96f";
+}
+.tmix-flip-vertically:before {
+  content: "\e970";
+}
 .tmix-scaling-down:before {
   content: "\e96d";
 }
@@ -357,3 +363,4 @@ i {
 .tmix-zoom:before {
   content: "\e961";
 }
+
