@@ -1,0 +1,945 @@
+<html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<head>
+<style>
+@font-face {
+  font-family: 'tmix-icon';
+  src: font-url('tmix-icon.eot?-6v4nnl');
+  src: font-url('tmix-icon.eot?#iefix-6v4nnl') format('embedded-opentype'),
+       font-url('tmix-icon.ttf?-6v4nnl') format('truetype'),
+       font-url('tmix-icon.woff?-6v4nnl') format('woff'),
+       font-url('tmix-icon.svg?-6v4nnl#tmix-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  font-family: 'tmix-icon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tmix-scaling-down:before {
+  content: "\e96d";
+}
+.tmix-design-finish:before {
+  content: "\e96e";
+}
+.tmix-ink-o:before {
+  content: "\e964";
+}
+.tmix-bottom-cursor:before {
+  content: "\e965";
+}
+.tmix-bottom-left-cursor:before {
+  content: "\e966";
+}
+.tmix-bottom-right-cursor:before {
+  content: "\e967";
+}
+.tmix-left-cursor:before {
+  content: "\e968";
+}
+.tmix-right-cursor:before {
+  content: "\e969";
+}
+.tmix-top-cursor:before {
+  content: "\e96a";
+}
+.tmix-top-left-cursor:before {
+  content: "\e96b";
+}
+.tmix-top-right-cursor:before {
+  content: "\e96c";
+}
+.tmix-bulk-order:before {
+  content: "\e962";
+}
+.tmix-guide-centerline:before {
+  content: "\e963";
+}
+.tmix-print-area-apron-front:before {
+  content: "\e92e";
+}
+.tmix-print-area-handtowel-front:before {
+  content: "\e934";
+}
+.tmix-print-area-bag-back:before {
+  content: "\e931";
+}
+.tmix-print-area-bag-front:before {
+  content: "\e948";
+}
+.tmix-text-stamp:before {
+  content: "\e947";
+}
+.tmix-angle-up-down:before {
+  content: "\e900";
+}
+.tmix-animal:before {
+  content: "\e901";
+}
+.tmix-apron:before {
+  content: "\e902";
+}
+.tmix-art:before {
+  content: "\e903";
+}
+.tmix-baby:before {
+  content: "\e904";
+}
+.tmix-back-layer:before {
+  content: "\e905";
+}
+.tmix-back:before {
+  content: "\e906";
+}
+.tmix-bag:before {
+  content: "\e907";
+}
+.tmix-basic:before {
+  content: "\e908";
+}
+.tmix-bottom-alignment:before {
+  content: "\e909";
+}
+.tmix-cancel:before {
+  content: "\e90a";
+}
+.tmix-cart:before {
+  content: "\e90b";
+}
+.tmix-decoration-text:before {
+  content: "\e90c";
+}
+.tmix-design:before {
+  content: "\e90d";
+}
+.tmix-equal:before {
+  content: "\e90e";
+}
+.tmix-event:before {
+  content: "\e90f";
+}
+.tmix-file-text-with-pen:before {
+  content: "\e910";
+}
+.tmix-first-layer:before {
+  content: "\e911";
+}
+.tmix-font:before {
+  content: "\e912";
+}
+.tmix-food:before {
+  content: "\e913";
+}
+.tmix-frame:before {
+  content: "\e914";
+}
+.tmix-free-dial:before {
+  content: "\e915";
+}
+.tmix-front-layer:before {
+  content: "\e916";
+}
+.tmix-gift:before {
+  content: "\e917";
+}
+.tmix-horizontal-center-alignment:before {
+  content: "\e918";
+}
+.tmix-horizontal:before {
+  content: "\e919";
+}
+.tmix-ink:before {
+  content: "\e91a";
+}
+.tmix-japan:before {
+  content: "\e91b";
+}
+.tmix-kids:before {
+  content: "\e91c";
+}
+.tmix-ladies-tshirt:before {
+  content: "\e91d";
+}
+.tmix-last-layer:before {
+  content: "\e91e";
+}
+.tmix-layer:before {
+  content: "\e91f";
+}
+.tmix-left-alignment:before {
+  content: "\e920";
+}
+.tmix-line-a:before {
+  content: "\e921";
+}
+.tmix-lock:before {
+  content: "\e922";
+}
+.tmix-logo-heart:before {
+  content: "\e923";
+}
+.tmix-long-tshirt:before {
+  content: "\e924";
+}
+.tmix-marine:before {
+  content: "\e925";
+}
+.tmix-music:before {
+  content: "\e926";
+}
+.tmix-outline:before {
+  content: "\e927";
+}
+.tmix-paint:before {
+  content: "\e928";
+}
+.tmix-parka:before {
+  content: "\e929";
+}
+.tmix-pc:before {
+  content: "\e92a";
+}
+.tmix-plant:before {
+  content: "\e92b";
+}
+.tmix-poloshirt:before {
+  content: "\e92c";
+}
+.tmix-present:before {
+  content: "\e92d";
+}
+.tmix-print-area-baby-back:before {
+  content: "\e92f";
+}
+.tmix-print-area-baby-front:before {
+  content: "\e930";
+}
+.tmix-print-area-clutch-back:before {
+  content: "\e932";
+}
+.tmix-print-area-clutch-front:before {
+  content: "\e933";
+}
+.tmix-print-area-long-tshirt-back:before {
+  content: "\e935";
+}
+.tmix-print-area-long-tshirt-front:before {
+  content: "\e936";
+}
+.tmix-print-area-poloshirt-back:before {
+  content: "\e937";
+}
+.tmix-print-area-poloshirt-front:before {
+  content: "\e938";
+}
+.tmix-print-area-pouch-back:before {
+  content: "\e939";
+}
+.tmix-print-area-pouch-front:before {
+  content: "\e93a";
+}
+.tmix-print-area-pull-parka-back:before {
+  content: "\e93b";
+}
+.tmix-print-area-pull-parka-front:before {
+  content: "\e93c";
+}
+.tmix-print-area-towel-back:before {
+  content: "\e93d";
+}
+.tmix-print-area-towel-front:before {
+  content: "\e93e";
+}
+.tmix-print-area-tshirt-back:before {
+  content: "\e93f";
+}
+.tmix-print-area-tshirt-front:before {
+  content: "\e940";
+}
+.tmix-print-area-zipup-parka-back:before {
+  content: "\e941";
+}
+.tmix-print-area-zipup-parka-front:before {
+  content: "\e942";
+}
+.tmix-processing:before {
+  content: "\e943";
+}
+.tmix-rank-1st:before {
+  content: "\e944";
+}
+.tmix-rank-2nd:before {
+  content: "\e945";
+}
+.tmix-rank-3rd:before {
+  content: "\e946";
+}
+.tmix-rank:before {
+  content: "\e949";
+}
+.tmix-redo:before {
+  content: "\e94a";
+}
+.tmix-right-alignment:before {
+  content: "\e94b";
+}
+.tmix-rock:before {
+  content: "\e94c";
+}
+.tmix-scene:before {
+  content: "\e94d";
+}
+.tmix-shadow:before {
+  content: "\e94e";
+}
+.tmix-sport:before {
+  content: "\e94f";
+}
+.tmix-stamp:before {
+  content: "\e950";
+}
+.tmix-sweat:before {
+  content: "\e951";
+}
+.tmix-symbol:before {
+  content: "\e952";
+}
+.tmix-tag:before {
+  content: "\e953";
+}
+.tmix-text:before {
+  content: "\e954";
+}
+.tmix-tmix-heart:before {
+  content: "\e955";
+}
+.tmix-tmix-logo:before {
+  content: "\e956";
+}
+.tmix-top-alignment:before {
+  content: "\e957";
+}
+.tmix-towel:before {
+  content: "\e958";
+}
+.tmix-truck:before {
+  content: "\e959";
+}
+.tmix-tshirt:before {
+  content: "\e95a";
+}
+.tmix-undo:before {
+  content: "\e95b";
+}
+.tmix-unlock:before {
+  content: "\e95c";
+}
+.tmix-upload:before {
+  content: "\e95d";
+}
+.tmix-user:before {
+  content: "\e95e";
+}
+.tmix-vertical-center-alignment:before {
+  content: "\e95f";
+}
+.tmix-vertical:before {
+  content: "\e960";
+}
+.tmix-zoom:before {
+  content: "\e961";
+}
+@font-face {
+  font-family: 'tmix-icon';
+  src: url('/Users/undo/tmix-icon-rails/app/assets/fonts/tmix-icon.eot?-6v4nnl');
+  src: url('/Users/undo/tmix-icon-rails/app/assets/fonts/tmix-icon.eot?#iefix-6v4nnl') format('embedded-opentype'),
+       url('/Users/undo/tmix-icon-rails/app/assets/fonts/tmix-icon.ttf?-6v4nnl') format('truetype'),
+       url('/Users/undo/tmix-icon-rails/app/assets/fonts/tmix-icon.woff?-6v4nnl') format('woff'),
+       url('/Users/undo/tmix-icon-rails/app/assets/fonts/tmix-icon.svg?-6v4nnl#tmix-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+<table class="table table-bordered">
+<tr>
+<th>class name</th>
+<th>icon</th>
+<th>code point</th>
+</tr>
+<tr>
+<td>tmix-angle-up-down</td>
+<td><i class="tmix-angle-up-down"></i></td>
+<td> "\e900"</td>
+</tr>
+<tr>
+<td>tmix-animal</td>
+<td><i class="tmix-animal"></i></td>
+<td> "\e901"</td>
+</tr>
+<tr>
+<td>tmix-apron</td>
+<td><i class="tmix-apron"></i></td>
+<td> "\e902"</td>
+</tr>
+<tr>
+<td>tmix-art</td>
+<td><i class="tmix-art"></i></td>
+<td> "\e903"</td>
+</tr>
+<tr>
+<td>tmix-baby</td>
+<td><i class="tmix-baby"></i></td>
+<td> "\e904"</td>
+</tr>
+<tr>
+<td>tmix-back-layer</td>
+<td><i class="tmix-back-layer"></i></td>
+<td> "\e905"</td>
+</tr>
+<tr>
+<td>tmix-back</td>
+<td><i class="tmix-back"></i></td>
+<td> "\e906"</td>
+</tr>
+<tr>
+<td>tmix-bag</td>
+<td><i class="tmix-bag"></i></td>
+<td> "\e907"</td>
+</tr>
+<tr>
+<td>tmix-basic</td>
+<td><i class="tmix-basic"></i></td>
+<td> "\e908"</td>
+</tr>
+<tr>
+<td>tmix-bottom-alignment</td>
+<td><i class="tmix-bottom-alignment"></i></td>
+<td> "\e909"</td>
+</tr>
+<tr>
+<td>tmix-cancel</td>
+<td><i class="tmix-cancel"></i></td>
+<td> "\e90a"</td>
+</tr>
+<tr>
+<td>tmix-cart</td>
+<td><i class="tmix-cart"></i></td>
+<td> "\e90b"</td>
+</tr>
+<tr>
+<td>tmix-decoration-text</td>
+<td><i class="tmix-decoration-text"></i></td>
+<td> "\e90c"</td>
+</tr>
+<tr>
+<td>tmix-design</td>
+<td><i class="tmix-design"></i></td>
+<td> "\e90d"</td>
+</tr>
+<tr>
+<td>tmix-equal</td>
+<td><i class="tmix-equal"></i></td>
+<td> "\e90e"</td>
+</tr>
+<tr>
+<td>tmix-event</td>
+<td><i class="tmix-event"></i></td>
+<td> "\e90f"</td>
+</tr>
+<tr>
+<td>tmix-file-text-with-pen</td>
+<td><i class="tmix-file-text-with-pen"></i></td>
+<td> "\e910"</td>
+</tr>
+<tr>
+<td>tmix-first-layer</td>
+<td><i class="tmix-first-layer"></i></td>
+<td> "\e911"</td>
+</tr>
+<tr>
+<td>tmix-font</td>
+<td><i class="tmix-font"></i></td>
+<td> "\e912"</td>
+</tr>
+<tr>
+<td>tmix-food</td>
+<td><i class="tmix-food"></i></td>
+<td> "\e913"</td>
+</tr>
+<tr>
+<td>tmix-frame</td>
+<td><i class="tmix-frame"></i></td>
+<td> "\e914"</td>
+</tr>
+<tr>
+<td>tmix-free-dial</td>
+<td><i class="tmix-free-dial"></i></td>
+<td> "\e915"</td>
+</tr>
+<tr>
+<td>tmix-front-layer</td>
+<td><i class="tmix-front-layer"></i></td>
+<td> "\e916"</td>
+</tr>
+<tr>
+<td>tmix-gift</td>
+<td><i class="tmix-gift"></i></td>
+<td> "\e917"</td>
+</tr>
+<tr>
+<td>tmix-horizontal-center-alignment</td>
+<td><i class="tmix-horizontal-center-alignment"></i></td>
+<td> "\e918"</td>
+</tr>
+<tr>
+<td>tmix-horizontal</td>
+<td><i class="tmix-horizontal"></i></td>
+<td> "\e919"</td>
+</tr>
+<tr>
+<td>tmix-ink</td>
+<td><i class="tmix-ink"></i></td>
+<td> "\e91a"</td>
+</tr>
+<tr>
+<td>tmix-japan</td>
+<td><i class="tmix-japan"></i></td>
+<td> "\e91b"</td>
+</tr>
+<tr>
+<td>tmix-kids</td>
+<td><i class="tmix-kids"></i></td>
+<td> "\e91c"</td>
+</tr>
+<tr>
+<td>tmix-ladies-tshirt</td>
+<td><i class="tmix-ladies-tshirt"></i></td>
+<td> "\e91d"</td>
+</tr>
+<tr>
+<td>tmix-last-layer</td>
+<td><i class="tmix-last-layer"></i></td>
+<td> "\e91e"</td>
+</tr>
+<tr>
+<td>tmix-layer</td>
+<td><i class="tmix-layer"></i></td>
+<td> "\e91f"</td>
+</tr>
+<tr>
+<td>tmix-left-alignment</td>
+<td><i class="tmix-left-alignment"></i></td>
+<td> "\e920"</td>
+</tr>
+<tr>
+<td>tmix-line-a</td>
+<td><i class="tmix-line-a"></i></td>
+<td> "\e921"</td>
+</tr>
+<tr>
+<td>tmix-lock</td>
+<td><i class="tmix-lock"></i></td>
+<td> "\e922"</td>
+</tr>
+<tr>
+<td>tmix-logo-heart</td>
+<td><i class="tmix-logo-heart"></i></td>
+<td> "\e923"</td>
+</tr>
+<tr>
+<td>tmix-long-tshirt</td>
+<td><i class="tmix-long-tshirt"></i></td>
+<td> "\e924"</td>
+</tr>
+<tr>
+<td>tmix-marine</td>
+<td><i class="tmix-marine"></i></td>
+<td> "\e925"</td>
+</tr>
+<tr>
+<td>tmix-music</td>
+<td><i class="tmix-music"></i></td>
+<td> "\e926"</td>
+</tr>
+<tr>
+<td>tmix-outline</td>
+<td><i class="tmix-outline"></i></td>
+<td> "\e927"</td>
+</tr>
+<tr>
+<td>tmix-paint</td>
+<td><i class="tmix-paint"></i></td>
+<td> "\e928"</td>
+</tr>
+<tr>
+<td>tmix-parka</td>
+<td><i class="tmix-parka"></i></td>
+<td> "\e929"</td>
+</tr>
+<tr>
+<td>tmix-pc</td>
+<td><i class="tmix-pc"></i></td>
+<td> "\e92a"</td>
+</tr>
+<tr>
+<td>tmix-plant</td>
+<td><i class="tmix-plant"></i></td>
+<td> "\e92b"</td>
+</tr>
+<tr>
+<td>tmix-poloshirt</td>
+<td><i class="tmix-poloshirt"></i></td>
+<td> "\e92c"</td>
+</tr>
+<tr>
+<td>tmix-present</td>
+<td><i class="tmix-present"></i></td>
+<td> "\e92d"</td>
+</tr>
+<tr>
+<td>tmix-print-area-apron-front</td>
+<td><i class="tmix-print-area-apron-front"></i></td>
+<td> "\e92e"</td>
+</tr>
+<tr>
+<td>tmix-print-area-baby-back</td>
+<td><i class="tmix-print-area-baby-back"></i></td>
+<td> "\e92f"</td>
+</tr>
+<tr>
+<td>tmix-print-area-baby-front</td>
+<td><i class="tmix-print-area-baby-front"></i></td>
+<td> "\e930"</td>
+</tr>
+<tr>
+<td>tmix-print-area-bag-back</td>
+<td><i class="tmix-print-area-bag-back"></i></td>
+<td> "\e931"</td>
+</tr>
+<tr>
+<td>tmix-print-area-clutch-back</td>
+<td><i class="tmix-print-area-clutch-back"></i></td>
+<td> "\e932"</td>
+</tr>
+<tr>
+<td>tmix-print-area-clutch-front</td>
+<td><i class="tmix-print-area-clutch-front"></i></td>
+<td> "\e933"</td>
+</tr>
+<tr>
+<td>tmix-print-area-handtowel-front</td>
+<td><i class="tmix-print-area-handtowel-front"></i></td>
+<td> "\e934"</td>
+</tr>
+<tr>
+<td>tmix-print-area-long-tshirt-back</td>
+<td><i class="tmix-print-area-long-tshirt-back"></i></td>
+<td> "\e935"</td>
+</tr>
+<tr>
+<td>tmix-print-area-long-tshirt-front</td>
+<td><i class="tmix-print-area-long-tshirt-front"></i></td>
+<td> "\e936"</td>
+</tr>
+<tr>
+<td>tmix-print-area-poloshirt-back</td>
+<td><i class="tmix-print-area-poloshirt-back"></i></td>
+<td> "\e937"</td>
+</tr>
+<tr>
+<td>tmix-print-area-poloshirt-front</td>
+<td><i class="tmix-print-area-poloshirt-front"></i></td>
+<td> "\e938"</td>
+</tr>
+<tr>
+<td>tmix-print-area-pouch-back</td>
+<td><i class="tmix-print-area-pouch-back"></i></td>
+<td> "\e939"</td>
+</tr>
+<tr>
+<td>tmix-print-area-pouch-front</td>
+<td><i class="tmix-print-area-pouch-front"></i></td>
+<td> "\e93a"</td>
+</tr>
+<tr>
+<td>tmix-print-area-pull-parka-back</td>
+<td><i class="tmix-print-area-pull-parka-back"></i></td>
+<td> "\e93b"</td>
+</tr>
+<tr>
+<td>tmix-print-area-pull-parka-front</td>
+<td><i class="tmix-print-area-pull-parka-front"></i></td>
+<td> "\e93c"</td>
+</tr>
+<tr>
+<td>tmix-print-area-towel-back</td>
+<td><i class="tmix-print-area-towel-back"></i></td>
+<td> "\e93d"</td>
+</tr>
+<tr>
+<td>tmix-print-area-towel-front</td>
+<td><i class="tmix-print-area-towel-front"></i></td>
+<td> "\e93e"</td>
+</tr>
+<tr>
+<td>tmix-print-area-tshirt-back</td>
+<td><i class="tmix-print-area-tshirt-back"></i></td>
+<td> "\e93f"</td>
+</tr>
+<tr>
+<td>tmix-print-area-tshirt-front</td>
+<td><i class="tmix-print-area-tshirt-front"></i></td>
+<td> "\e940"</td>
+</tr>
+<tr>
+<td>tmix-print-area-zipup-parka-back</td>
+<td><i class="tmix-print-area-zipup-parka-back"></i></td>
+<td> "\e941"</td>
+</tr>
+<tr>
+<td>tmix-print-area-zipup-parka-front</td>
+<td><i class="tmix-print-area-zipup-parka-front"></i></td>
+<td> "\e942"</td>
+</tr>
+<tr>
+<td>tmix-processing</td>
+<td><i class="tmix-processing"></i></td>
+<td> "\e943"</td>
+</tr>
+<tr>
+<td>tmix-rank-1st</td>
+<td><i class="tmix-rank-1st"></i></td>
+<td> "\e944"</td>
+</tr>
+<tr>
+<td>tmix-rank-2nd</td>
+<td><i class="tmix-rank-2nd"></i></td>
+<td> "\e945"</td>
+</tr>
+<tr>
+<td>tmix-rank-3rd</td>
+<td><i class="tmix-rank-3rd"></i></td>
+<td> "\e946"</td>
+</tr>
+<tr>
+<td>tmix-text-stamp</td>
+<td><i class="tmix-text-stamp"></i></td>
+<td> "\e947"</td>
+</tr>
+<tr>
+<td>tmix-print-area-bag-front</td>
+<td><i class="tmix-print-area-bag-front"></i></td>
+<td> "\e948"</td>
+</tr>
+<tr>
+<td>tmix-rank</td>
+<td><i class="tmix-rank"></i></td>
+<td> "\e949"</td>
+</tr>
+<tr>
+<td>tmix-redo</td>
+<td><i class="tmix-redo"></i></td>
+<td> "\e94a"</td>
+</tr>
+<tr>
+<td>tmix-right-alignment</td>
+<td><i class="tmix-right-alignment"></i></td>
+<td> "\e94b"</td>
+</tr>
+<tr>
+<td>tmix-rock</td>
+<td><i class="tmix-rock"></i></td>
+<td> "\e94c"</td>
+</tr>
+<tr>
+<td>tmix-scene</td>
+<td><i class="tmix-scene"></i></td>
+<td> "\e94d"</td>
+</tr>
+<tr>
+<td>tmix-shadow</td>
+<td><i class="tmix-shadow"></i></td>
+<td> "\e94e"</td>
+</tr>
+<tr>
+<td>tmix-sport</td>
+<td><i class="tmix-sport"></i></td>
+<td> "\e94f"</td>
+</tr>
+<tr>
+<td>tmix-stamp</td>
+<td><i class="tmix-stamp"></i></td>
+<td> "\e950"</td>
+</tr>
+<tr>
+<td>tmix-sweat</td>
+<td><i class="tmix-sweat"></i></td>
+<td> "\e951"</td>
+</tr>
+<tr>
+<td>tmix-symbol</td>
+<td><i class="tmix-symbol"></i></td>
+<td> "\e952"</td>
+</tr>
+<tr>
+<td>tmix-tag</td>
+<td><i class="tmix-tag"></i></td>
+<td> "\e953"</td>
+</tr>
+<tr>
+<td>tmix-text</td>
+<td><i class="tmix-text"></i></td>
+<td> "\e954"</td>
+</tr>
+<tr>
+<td>tmix-tmix-heart</td>
+<td><i class="tmix-tmix-heart"></i></td>
+<td> "\e955"</td>
+</tr>
+<tr>
+<td>tmix-tmix-logo</td>
+<td><i class="tmix-tmix-logo"></i></td>
+<td> "\e956"</td>
+</tr>
+<tr>
+<td>tmix-top-alignment</td>
+<td><i class="tmix-top-alignment"></i></td>
+<td> "\e957"</td>
+</tr>
+<tr>
+<td>tmix-towel</td>
+<td><i class="tmix-towel"></i></td>
+<td> "\e958"</td>
+</tr>
+<tr>
+<td>tmix-truck</td>
+<td><i class="tmix-truck"></i></td>
+<td> "\e959"</td>
+</tr>
+<tr>
+<td>tmix-tshirt</td>
+<td><i class="tmix-tshirt"></i></td>
+<td> "\e95a"</td>
+</tr>
+<tr>
+<td>tmix-undo</td>
+<td><i class="tmix-undo"></i></td>
+<td> "\e95b"</td>
+</tr>
+<tr>
+<td>tmix-unlock</td>
+<td><i class="tmix-unlock"></i></td>
+<td> "\e95c"</td>
+</tr>
+<tr>
+<td>tmix-upload</td>
+<td><i class="tmix-upload"></i></td>
+<td> "\e95d"</td>
+</tr>
+<tr>
+<td>tmix-user</td>
+<td><i class="tmix-user"></i></td>
+<td> "\e95e"</td>
+</tr>
+<tr>
+<td>tmix-vertical-center-alignment</td>
+<td><i class="tmix-vertical-center-alignment"></i></td>
+<td> "\e95f"</td>
+</tr>
+<tr>
+<td>tmix-vertical</td>
+<td><i class="tmix-vertical"></i></td>
+<td> "\e960"</td>
+</tr>
+<tr>
+<td>tmix-zoom</td>
+<td><i class="tmix-zoom"></i></td>
+<td> "\e961"</td>
+</tr>
+<tr>
+<td>tmix-bulk-order</td>
+<td><i class="tmix-bulk-order"></i></td>
+<td> "\e962"</td>
+</tr>
+<tr>
+<td>tmix-guide-centerline</td>
+<td><i class="tmix-guide-centerline"></i></td>
+<td> "\e963"</td>
+</tr>
+<tr>
+<td>tmix-ink-o</td>
+<td><i class="tmix-ink-o"></i></td>
+<td> "\e964"</td>
+</tr>
+<tr>
+<td>tmix-bottom-cursor</td>
+<td><i class="tmix-bottom-cursor"></i></td>
+<td> "\e965"</td>
+</tr>
+<tr>
+<td>tmix-bottom-left-cursor</td>
+<td><i class="tmix-bottom-left-cursor"></i></td>
+<td> "\e966"</td>
+</tr>
+<tr>
+<td>tmix-bottom-right-cursor</td>
+<td><i class="tmix-bottom-right-cursor"></i></td>
+<td> "\e967"</td>
+</tr>
+<tr>
+<td>tmix-left-cursor</td>
+<td><i class="tmix-left-cursor"></i></td>
+<td> "\e968"</td>
+</tr>
+<tr>
+<td>tmix-right-cursor</td>
+<td><i class="tmix-right-cursor"></i></td>
+<td> "\e969"</td>
+</tr>
+<tr>
+<td>tmix-top-cursor</td>
+<td><i class="tmix-top-cursor"></i></td>
+<td> "\e96a"</td>
+</tr>
+<tr>
+<td>tmix-top-left-cursor</td>
+<td><i class="tmix-top-left-cursor"></i></td>
+<td> "\e96b"</td>
+</tr>
+<tr>
+<td>tmix-top-right-cursor</td>
+<td><i class="tmix-top-right-cursor"></i></td>
+<td> "\e96c"</td>
+</tr>
+<tr>
+<td>tmix-scaling-down</td>
+<td><i class="tmix-scaling-down"></i></td>
+<td> "\e96d"</td>
+</tr>
+<tr>
+<td>tmix-design-finish</td>
+<td><i class="tmix-design-finish"></i></td>
+<td> "\e96e"</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</body>
+</html>
