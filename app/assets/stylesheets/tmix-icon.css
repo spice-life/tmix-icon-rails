@@ -23,6 +23,126 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.tmix-alphabet:before {
+  content: "\e972";
+}
+.tmix-arrow-symbol:before {
+  content: "\e973";
+}
+.tmix-arrow:before {
+  content: "\e974";
+}
+.tmix-balloon:before {
+  content: "\e975";
+}
+.tmix-bird:before {
+  content: "\e976";
+}
+.tmix-birthday:before {
+  content: "\e977";
+}
+.tmix-butterfly:before {
+  content: "\e978";
+}
+.tmix-camera:before {
+  content: "\e979";
+}
+.tmix-clock:before {
+  content: "\e97a";
+}
+.tmix-crown:before {
+  content: "\e97b";
+}
+.tmix-cup:before {
+  content: "\e97c";
+}
+.tmix-decoration:before {
+  content: "\e97d";
+}
+.tmix-dog:before {
+  content: "\e97e";
+}
+.tmix-emblem:before {
+  content: "\e97f";
+}
+.tmix-eto:before {
+  content: "\e980";
+}
+.tmix-face:before {
+  content: "\e981";
+}
+.tmix-father:before {
+  content: "\e982";
+}
+.tmix-feather:before {
+  content: "\e983";
+}
+.tmix-fish:before {
+  content: "\e984";
+}
+.tmix-fork:before {
+  content: "\e985";
+}
+.tmix-glasses:before {
+  content: "\e986";
+}
+.tmix-halloween:before {
+  content: "\e987";
+}
+.tmix-hat:before {
+  content: "\e988";
+}
+.tmix-jewel:before {
+  content: "\e989";
+}
+.tmix-laurel:before {
+  content: "\e98a";
+}
+.tmix-leaf:before {
+  content: "\e98b";
+}
+.tmix-mother:before {
+  content: "\e98c";
+}
+.tmix-mustache:before {
+  content: "\e98d";
+}
+.tmix-others:before {
+  content: "\e98e";
+}
+.tmix-piano:before {
+  content: "\e98f";
+}
+.tmix-rabbit:before {
+  content: "\e990";
+}
+.tmix-ribbon-banner:before {
+  content: "\e991";
+}
+.tmix-ribbon:before {
+  content: "\e992";
+}
+.tmix-ring:before {
+  content: "\e993";
+}
+.tmix-rouge:before {
+  content: "\e994";
+}
+.tmix-star:before {
+  content: "\e995";
+}
+.tmix-tree:before {
+  content: "\e996";
+}
+.tmix-beginner-mark:before {
+  content: "\e997";
+}
+.tmix-faq:before {
+  content: "\e998";
+}
+.tmix-coupon:before {
+  content: "\e971";
+}
 .tmix-flip-horizontally:before {
   content: "\e96f";
 }
