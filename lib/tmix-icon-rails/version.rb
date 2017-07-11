@@ -1,3 +1,3 @@
 module TmixIcon
-  VERSION = "4.4.0"
+  VERSION = "5.0.0"
 end
