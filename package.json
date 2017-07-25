@@ -1,0 +1,19 @@
+{
+  "name": "@spice-life/icon",
+  "version": "1.1.0",
+  "description": "Formally tmix-icon-rails",
+  "main": "index.js",
+  "files": [
+    "app", "script"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/spice-life/tmix-icon-rails.git"
+  },
+  "author": "Takaya Kobayashi <kobayashi@spicelife.jp>",
+  "license": "MIT and OFL",
+  "bugs": {
+    "url": "https://github.com/spice-life/tmix-icon-rails/issues"
+  },
+  "homepage": "https://github.com/spice-life/tmix-icon-rails#readme"
+}
