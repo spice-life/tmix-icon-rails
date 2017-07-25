@@ -24,6 +24,12 @@ $ gem install tmix-icon-rails
 @import "tmix-icon"
 ```
 
+### Customize font file host url
+```shell
+# require Node.js
+$ script/generate.js https://example.com # => Output customized CSS to STDOUT
+```
+
 ## Do you need list of icon and css class name?
 ```sh
 $ ruby test/gen_table.rb > list_of_icons.html
