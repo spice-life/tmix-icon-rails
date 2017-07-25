@@ -1,4 +1,6 @@
 # tmix-icon-rails
+[![Gem](https://img.shields.io/gem/v/tmix-icon-rails.svg)](https://rubygems.org/gems/tmix-icon-rails)
+[![npm](https://img.shields.io/npm/v/@spice-life/icon.svg)](https://www.npmjs.com/package/@spice-life/icon)
 
 ## Installation
 
