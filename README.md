@@ -31,6 +31,10 @@ $ script/generate.js https://example.com # => Output customized CSS to STDOUT
 ```
 
 ## Do you need list of icon and css class name?
+See here -> https://spice-life.github.io/tmix-icon-rails/
+
+Or...
+
 ```sh
 $ ruby test/gen_table.rb > list_of_icons.html
 ```
