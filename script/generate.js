@@ -9,7 +9,7 @@ const css = readFileSync(
 ).toString().replace(/font-url\('([^\s]*)'\)/g, (_, path) => {
   const url = new URL(host)
   url.pathname = resolve(url.pathname, path)
-  return `url('${url.toString()}')`
+  return `url('${decodeURIComponent(url.toString())}')`
 })
 
 console.log(css)
