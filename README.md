@@ -1,4 +1,6 @@
 # tmix-icon-rails
+[![Gem](https://img.shields.io/gem/v/tmix-icon-rails.svg)](https://rubygems.org/gems/tmix-icon-rails)
+[![npm](https://img.shields.io/npm/v/@spice-life/icon.svg)](https://www.npmjs.com/package/@spice-life/icon)
 
 ## Installation
 
@@ -24,7 +26,17 @@ $ gem install tmix-icon-rails
 @import "tmix-icon"
 ```
 
+### Customize font file host url
+```shell
+# require Node.js
+$ script/generate.js https://example.com # => Output customized CSS to STDOUT
+```
+
 ## Do you need list of icon and css class name?
+See here -> https://spice-life.github.io/tmix-icon-rails/
+
+Or...
+
 ```sh
 $ ruby test/gen_table.rb > list_of_icons.html
 ```
