@@ -482,3 +482,9 @@ i {
 .tmix-zoom:before {
   content: "\e961";
 }
+.tmix-mail:before {
+  content: "\e999";
+}
+.tmix-questions:before {
+  content: "\e99a";
+}
