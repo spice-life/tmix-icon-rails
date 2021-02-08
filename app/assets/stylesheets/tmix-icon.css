@@ -488,3 +488,36 @@ i {
 .tmix-questions:before {
   content: "\e99a";
 }
+.tmix-american-arch:before {
+  content: "\e99c";
+}
+.tmix-arch:before {
+  content: "\e99d";
+}
+.tmix-between-characters:before {
+  content: "\e99e";
+}
+.tmix-curvature:before {
+  content: "\e99f";
+}
+.tmix-line-spacing:before {
+  content: "\e9a0";
+}
+.tmix-normal:before {
+  content: "\e9a1";
+}
+.tmix-reverse-arch:before {
+  content: "\e9a2";
+}
+.tmix-slope:before {
+  content: "\e9a3";
+}
+.tmix-sunrise:before {
+  content: "\e9a4";
+}
+.tmix-train:before {
+  content: "\e9a5";
+}
+.tmix-vertical-type:before {
+  content: "\e9a6";
+}
