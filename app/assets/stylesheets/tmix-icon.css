@@ -524,3 +524,6 @@ i {
 .tmix-designーtemplate:before {
   content: "\e9a7";
 }
+.tmix-design-support:before {
+  content: "\e9a8";
+}
