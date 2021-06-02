@@ -521,3 +521,9 @@ i {
 .tmix-vertical-type:before {
   content: "\e9a6";
 }
+.tmix-designーtemplate:before {
+  content: "\e9a7";
+}
+.tmix-design-support:before {
+  content: "\e9a8";
+}
