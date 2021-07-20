@@ -527,3 +527,39 @@ i {
 .tmix-design-support:before {
   content: "\e9a8";
 }
+.tmix-down:before {
+  content: "\e9a9";
+}
+.tmix-down-arrow:before {
+  content: "\e9aa";
+}
+.tmix-free-estimate:before {
+  content: "\e9ab";
+}
+.tmix-login:before {
+  content: "\e9ac";
+}
+.tmix-menu-block:before {
+  content: "\e9ad";
+}
+.tmix-menu-list:before {
+  content: "\e9ae";
+}
+.tmix-search:before {
+  content: "\e9af";
+}
+.tmix-up:before {
+  content: "\e9b0";
+}
+.tmix-up-arrow:before {
+  content: "\e9b1";
+}
+.tmix-close:before {
+  content: "\e9b2";
+}
+.tmix-contact-phone:before {
+  content: "\e9b3";
+}
+.tmix-right-arrow-angle:before {
+  content: "\e9b4";
+}
