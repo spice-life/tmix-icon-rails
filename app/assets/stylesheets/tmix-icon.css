@@ -560,3 +560,6 @@ i {
 .tmix-contact-phone:before {
   content: "\e9b3";
 }
+.tmix-right-arrow-angle:before {
+  content: "\e9b4";
+}
