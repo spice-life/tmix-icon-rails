@@ -529,45 +529,34 @@ i {
 }
 .tmix-down:before {
   content: "\e9a9";
-  color: #555;
 }
 .tmix-down-arrow:before {
   content: "\e9aa";
-  color: #555;
 }
 .tmix-free-estimate:before {
   content: "\e9ab";
-  color: #555;
 }
 .tmix-login:before {
   content: "\e9ac";
-  color: #555;
 }
 .tmix-menu-block:before {
   content: "\e9ad";
-  color: #555;
 }
 .tmix-menu-list:before {
   content: "\e9ae";
-  color: #555;
 }
 .tmix-search:before {
   content: "\e9af";
-  color: #555;
 }
 .tmix-up:before {
   content: "\e9b0";
-  color: #555;
 }
 .tmix-up-arrow:before {
   content: "\e9b1";
-  color: #555;
 }
 .tmix-close:before {
   content: "\e9b2";
-  color: #555;
 }
 .tmix-contact-phone:before {
   content: "\e9b3";
-  color: #555;
 }
